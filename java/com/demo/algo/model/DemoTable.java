@@ -14,13 +14,13 @@ public class DemoTable implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	//@Column(name="Id")
+	@Column(name="Id")
 	private Long Id;
 
-	//@Column(name="UnsortedData")
+	@Column(name="Unsorted")
 	private String unsorted;
 	
-	//@Column(name="SortedData")
+	@Column(name="Sorted")
 	private String sorted;
 
 
